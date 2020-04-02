@@ -1,4 +1,22 @@
 scene.setBackgroundColor(11)
+let mySprite3 = sprites.create(img`
+e e e e e e e e e e e e e e e e 
+e d d d d d d d d d d d d d d e 
+e d d e e e e d e e e e e d d e 
+e d d d d d d d d d d d d d d e 
+e d d d f f d d d f f d d d d e 
+e d d d f f d d d f f d d d d e 
+d d d d d d d d d d d d d d d d 
+d d d d d d d d d d d d d d d d 
+d d d d d d d f f d d d d d d d 
+d d d d d d d f f d d d d d d d 
+d d d 2 d d d d d d d d 2 d d d 
+d d d 2 2 d d d d d d 2 2 d d d 
+f d d d 2 2 2 2 2 2 2 2 d d d f 
+f f f d d d d d d d d d d f f f 
+f f f f f f f f f f f f f f f f 
+f f f f f f f f f f f f f f f f 
+`, SpriteKind.Player)
 let mySprite = sprites.create(img`
 . . . . . . . . . . . . . . . . 
 . . f f f f f f f f f f f . . . 
@@ -35,6 +53,7 @@ f f e e e e e e e e e e e f f .
 . . . . 8 8 8 f 8 8 8 . . . . . 
 . . . . . . . . . . . . . . . . 
 `, SpriteKind.Player)
+mySprite3.setPosition(50, 58)
 mySprite2.setPosition(100, 60)
 mySprite.say("eh", 2000)
 pause(2000)
