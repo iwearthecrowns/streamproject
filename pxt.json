@@ -1,7 +1,8 @@
 {
     "name": "streamProject",
     "dependencies": {
-        "device": "*"
+        "device": "*",
+        "streamProject": "github:iwearthecrowns/streamproject#master"
     },
     "description": "",
     "files": [
